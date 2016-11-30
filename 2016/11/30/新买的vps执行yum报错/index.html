@@ -3,21 +3,33 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Hello World | Sunny&#39;s Blog</title>
+    <title>新买的vps执行yum报错 | Sunny&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+    <meta name="description" content="如题，今天新买的VPS，系统是centos7，在执行Yum的时候的这个错误。
+1Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again
+Google查了下解决方法：
+修改文件
+1/etc/yum.repos.d/epel.repo
+注释掉baseurl，取消mirrorli">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://84hero.github.io/2016/11/30/hello-world/index.html">
+<meta property="og:title" content="新买的vps执行yum报错">
+<meta property="og:url" content="https://84hero.github.io/2016/11/30/新买的vps执行yum报错/index.html">
 <meta property="og:site_name" content="Sunny's Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-11-30T10:13:44.000Z">
+<meta property="og:description" content="如题，今天新买的VPS，系统是centos7，在执行Yum的时候的这个错误。
+1Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again
+Google查了下解决方法：
+修改文件
+1/etc/yum.repos.d/epel.repo
+注释掉baseurl，取消mirrorli">
+<meta property="og:updated_time" content="2016-11-30T12:20:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="新买的vps执行yum报错">
+<meta name="twitter:description" content="如题，今天新买的VPS，系统是centos7，在执行Yum的时候的这个错误。
+1Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again
+Google查了下解决方法：
+修改文件
+1/etc/yum.repos.d/epel.repo
+注释掉baseurl，取消mirrorli">
     
 
     
@@ -206,7 +218,7 @@ Quick">
 </aside>
 
             
-            <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-新买的vps执行yum报错" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -214,7 +226,7 @@ Quick">
                 
     
         <h1 class="article-title" itemprop="name">
-            Hello World
+            新买的vps执行yum报错
         </h1>
     
 
@@ -223,14 +235,19 @@ Quick">
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2016/11/30/hello-world/">
-            <time datetime="2016-11-30T10:00:51.000Z" itemprop="datePublished">2016-11-30</time>
+        <a href="/2016/11/30/新买的vps执行yum报错/">
+            <time datetime="2016-11-30T12:14:22.000Z" itemprop="datePublished">2016-11-30</time>
         </a>
     </div>
 
 
                         
                         
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/centos/">centos</a>
+    </div>
+
                     </div>
                 
             </header>
@@ -239,16 +256,16 @@ Quick">
         <div class="article-entry" itemprop="articleBody">
         
             
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
+            <p>如题，今天新买的VPS，系统是centos7，在执行Yum的时候的这个错误。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again</div></pre></td></tr></table></figure>
+<p>Google查了下解决方法：</p>
+<p>修改文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/etc/yum.repos.d/epel.repo</div></pre></td></tr></table></figure>
+<p>注释掉baseurl，取消mirrorlist的注释</p>
+<p>##修改代码如下<br>替换前</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#baseurl=http://download.fedoraproject.org/pub/epel/7/$basearch</div><div class="line">mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-7&amp;arch=$basearch</div></pre></td></tr></table></figure>
+<p>替换后</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#baseurl=http://download.fedoraproject.org/pub/epel/7/$basearch</div><div class="line">mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-7&amp;arch=$basearch</div></pre></td></tr></table></figure>
         
         </div>
         <footer class="article-footer">
@@ -258,7 +275,7 @@ Quick">
 
 </div>
 
-    <a data-url="https://84hero.github.io/2016/11/30/hello-world/" data-id="ciw4wib4v0004fx6j8exa1p01" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://84hero.github.io/2016/11/30/新买的vps执行yum报错/" data-id="ciw4wib4u0003fx6jfjbbaxvi" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -326,7 +343,7 @@ Quick">
 
             
     
-        <a href="https://84hero.github.io/2016/11/30/hello-world/#comments" class="article-comment-link ds-thread-count" data-thread-key="https://84hero.github.io/2016/11/30/hello-world/">Comments</a>
+        <a href="https://84hero.github.io/2016/11/30/新买的vps执行yum报错/#comments" class="article-comment-link ds-thread-count" data-thread-key="https://84hero.github.io/2016/11/30/新买的vps执行yum报错/">Comments</a>
     
 
         </footer>
@@ -335,15 +352,20 @@ Quick">
         
 <nav id="article-nav">
     
-        <a href="/2016/11/30/1/" id="article-nav-newer" class="article-nav-link-wrap">
+        <a href="/2016/11/30/vps执行yum报错/" id="article-nav-newer" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Newer</strong>
             <div class="article-nav-title">
                 
-                    1
+                    vps执行yum报错
                 
             </div>
         </a>
     
+    
+        <a href="/2016/11/30/1/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">1</div>
+        </a>
     
 </nav>
 
@@ -356,7 +378,7 @@ Quick">
     <section id="comments">
     
         
-    <div class="ds-thread" data-thread-key="2016/11/30/hello-world/" data-title="Hello World" data-url="https://84hero.github.io/2016/11/30/hello-world/"></div>
+    <div class="ds-thread" data-thread-key="2016/11/30/新买的vps执行yum报错/" data-title="新买的vps执行yum报错" data-url="https://84hero.github.io/2016/11/30/新买的vps执行yum报错/"></div>
     <style>
         #ds-thread #ds-reset .ds-textarea-wrapper {
             background: none;
